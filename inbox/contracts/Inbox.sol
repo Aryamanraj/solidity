@@ -1,8 +1,8 @@
-pragma solidity ^0.4.25;
+pragma solidity ^0.4.17;
 contract Inbox{
     string public message;
 
-    function inbox(string iniMsg) public {
+    function Inbox(string iniMsg) public {
         message = iniMsg;
     }
     function setMsg(string newMsg) public {
@@ -13,3 +13,5 @@ contract Inbox{
     //     return message;
     // }
 }
+
+
